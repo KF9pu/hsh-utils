@@ -1,3 +1,4 @@
+// 현재 시간 UNIX
 const unixNow = () => {
   const now = new Date();
   const unixTime = Math.floor(now.getTime() / 1000);
