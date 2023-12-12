@@ -39,4 +39,4 @@ function arrSort(arr) {
 }
 
 exports.PreventDragClick = PreventDragClick;
-exports.arrSort = arrSort;
+exports.arrRandomSort = arrSort;
