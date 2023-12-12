@@ -25,19 +25,20 @@ class PreventDragClick {
     }
 }
 
-function arrSort(arr) {
+function shuffleArray(arr) {
     const arrLength = arr.length;
     const result = [];
-    const rendomNums = [];
+    const randomNums = [];
     for (const item of arr) {
         let randomNum = Math.floor(Math.random() * arrLength);
-        while (rendomNums.includes(randomNum)) {
+        while (randomNums.includes(randomNum)) {
             randomNum = Math.floor(Math.random() * arrLength);
         }
         result.push(arr[randomNum]);
+        randomNums.push(randomNum);
     }
     return result;
 }
 
 exports.PreventDragClick = PreventDragClick;
-exports.arrRandomSort = arrSort;
+exports.shuffleArray = shuffleArray;

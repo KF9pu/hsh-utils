@@ -1,2 +1,2 @@
 export { default as PreventDragClick } from "./drag/PreventDragClick";
-export { default as arrRandomSort } from "./sort/arrRandomSort";
+export { default as shuffleArray } from "./sort/shuffleArray";
