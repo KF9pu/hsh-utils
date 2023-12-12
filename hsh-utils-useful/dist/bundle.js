@@ -36,6 +36,7 @@ function arrSort(arr) {
         }
         result.push(arr[randomNum]);
     }
+    return result;
 }
 
 exports.PreventDragClick = PreventDragClick;

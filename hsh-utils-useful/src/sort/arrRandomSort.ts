@@ -10,4 +10,6 @@ export default function arrSort(arr: Array<any>) {
     }
     result.push(arr[randomNum]);
   }
+
+  return result;
 }
