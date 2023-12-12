@@ -1,4 +1,4 @@
-export default function arrSort(arr: Array<any>) {
+export default function shuffleArray(arr: Array<any>) {
   const arrLength = arr.length;
   const result = [];
 
